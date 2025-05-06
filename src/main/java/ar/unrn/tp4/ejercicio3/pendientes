@@ -1,0 +1,3 @@
+JdbcRegistroDeInscriptos: Mejorar la conexión a la base de datos.
+Agregar una interface para manejar la conexión
+Hacer la fecha para contastar el cumple como lo hizo el profesor
