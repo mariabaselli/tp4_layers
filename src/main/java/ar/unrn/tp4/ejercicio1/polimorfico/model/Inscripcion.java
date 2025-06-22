@@ -11,7 +11,7 @@ public class Inscripcion {
         this.registro = registro;
     }
 
-    //TODO Las líneas 14 y 15 me hacen ruido
+
     public void agregarParticipante(String nombre, String telefono, String region) throws SQLException {
         Participante participante = new Participante(nombre, telefono, region);
         this.registro.agregarParticipante(nombre, telefono, region);

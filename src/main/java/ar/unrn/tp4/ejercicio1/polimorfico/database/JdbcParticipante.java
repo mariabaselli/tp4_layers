@@ -3,7 +3,11 @@ package ar.unrn.tp4.ejercicio1.polimorfico.database;
 import ar.unrn.tp4.ejercicio1.polimorfico.model.Participante;
 import ar.unrn.tp4.ejercicio1.polimorfico.model.RegistroDeParticipantes;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,4 +55,17 @@ public class JdbcParticipante implements RegistroDeParticipantes {
         }
         return participantes;
     }
+
+//    public Optional<Object> findParticipante(String nombre){
+//    //    try{
+//    //        ////Establecer la conexion
+//    //        ////Recuperar los datos
+//    //        if (resultado ==0) {
+//    //            return Optional.empty();
+//    //        }
+//    //
+//    //    }
+//    //    return Optional.of(new Participante("Maria", "2956896", "Australia"));
+//    //}
+//}
 }

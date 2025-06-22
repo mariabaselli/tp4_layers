@@ -1,6 +1,5 @@
 package ar.unrn.tp4.ejercicio2.database;
 
-
 import ar.unrn.tp4.ejercicio2.model.EnvioMensaje;
 import io.github.cdimascio.dotenv.Dotenv;
 import org.simplejavamail.api.email.Email;

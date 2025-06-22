@@ -3,7 +3,7 @@ package ar.unrn.tp4.ejercicio2.model;
 import java.util.ArrayList;
 
 public class Empleados {
-    //TODO es correcto tener el sunto y el mensaje como una constante?
+    //TODO es correcto tener el asunto y el mensaje como una constante?
 
     public static final String ASUNTO_EMAIL = "Feliz Cumpleaños";
     public static final String MENSAJE_EMAIL = "Desde la empresa queremos desearle un feliz cumpleaños ";
